@@ -13,7 +13,6 @@ Source: [Zenodo record 4639543](https://zenodo.org/records/4639543).
 - **HEIC support:** requires `pillow-heif` — call `register_heif_opener()` before opening images
 
 ## Notebook Layout (`download_dataset.ipynb`)
-| Extract zip | Unzips `4639543.zip` into `date_fruit_dataset/` |
 | # | Cell | Purpose |
 |---|------|---------|
 | 0 | pip installs | Commented out — uncomment and run once (`pillow-heif`, `opencv-python` required) |
